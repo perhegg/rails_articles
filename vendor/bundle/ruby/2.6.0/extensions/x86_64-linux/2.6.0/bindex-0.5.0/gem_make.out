@@ -1,15 +1,15 @@
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
-/snap/ruby/128/bin/ruby -I /snap/ruby/128/lib/ruby/2.6.0 -r ./siteconf20190222-1197-1b6jr55.rb extconf.rb
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
+/home/lemur/.rvm/rubies/ruby-2.6.0/bin/ruby -I /home/lemur/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0 -r ./siteconf20190223-25218-1y1easu.rb extconf.rb
 creating Makefile
 
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
 make "DESTDIR=" clean
 
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
 make "DESTDIR="
 compiling cruby.c
 linking shared-object bindex/cruby.so
 
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 cruby.so ./.gem.20190222-1197-11fhy39/bindex
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20190223-25218-yhpyjb/bindex

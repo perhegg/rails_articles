@@ -1,5 +1,5 @@
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/nio4r-2.3.1/ext/nio4r
-/snap/ruby/128/bin/ruby -I /snap/ruby/128/lib/ruby/2.6.0 -r ./siteconf20190222-1197-u8mp9d.rb extconf.rb
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/nio4r-2.3.1/ext/nio4r
+/home/lemur/.rvm/rubies/ruby-2.6.0/bin/ruby -I /home/lemur/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0 -r ./siteconf20190223-25218-1961ru4.rb extconf.rb
 checking for unistd.h... yes
 checking for sys/select.h... yes
 checking for port_event_t in poll.h... no
@@ -9,10 +9,10 @@ checking for port_event_t in port.h... no
 checking for sys/resource.h... yes
 creating Makefile
 
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/nio4r-2.3.1/ext/nio4r
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/nio4r-2.3.1/ext/nio4r
 make "DESTDIR=" clean
 
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/nio4r-2.3.1/ext/nio4r
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/nio4r-2.3.1/ext/nio4r
 make "DESTDIR="
 compiling bytebuffer.c
 compiling monitor.c
@@ -50,7 +50,7 @@ In file included from nio4r_ext.c:7:0:
                                     ^~~~~~~~~~~~~~~
 In file included from ../libev/ev.c:42:0,
                  from nio4r_ext.c:7:
-/snap/ruby/128/include/ruby-2.6.0/ruby/thread.h:28:7: note: expected ‘void * (*)(void *)’ but argument is of type ‘VALUE (*)(void *) {aka long unsigned int (*)(void *)}’
+/home/lemur/.rvm/rubies/ruby-2.6.0/include/ruby-2.6.0/ruby/thread.h:28:7: note: expected ‘void * (*)(void *)’ but argument is of type ‘VALUE (*)(void *) {aka long unsigned int (*)(void *)}’
  void *rb_thread_call_without_gvl(void *(*func)(void *), void *data1,
        ^~~~~~~~~~~~~~~~~~~~~~~~~~
 In file included from nio4r_ext.c:7:0:
@@ -65,12 +65,12 @@ In file included from nio4r_ext.c:7:0:
 ../libev/ev.c:5207:27: warning: "/*" within comment [-Wcomment]
  /* EV_EMBED    0x00010000 /* embedded event loop needs sweep */
                             
-In file included from /snap/ruby/128/include/ruby-2.6.0/ruby/ruby.h:29:0,
-                 from /snap/ruby/128/include/ruby-2.6.0/ruby.h:33,
+In file included from /home/lemur/.rvm/rubies/ruby-2.6.0/include/ruby-2.6.0/ruby/ruby.h:29:0,
+                 from /home/lemur/.rvm/rubies/ruby-2.6.0/include/ruby-2.6.0/ruby.h:33,
                  from nio4r.h:9,
                  from nio4r_ext.c:6:
 nio4r_ext.c: In function ‘Init_nio4r_ext’:
-/snap/ruby/128/include/ruby-2.6.0/ruby/defines.h:211:18: warning: passing argument 1 of ‘ev_set_allocator’ from incompatible pointer type [-Wincompatible-pointer-types]
+/home/lemur/.rvm/rubies/ruby-2.6.0/include/ruby-2.6.0/ruby/defines.h:211:18: warning: passing argument 1 of ‘ev_set_allocator’ from incompatible pointer type [-Wincompatible-pointer-types]
  #define xrealloc ruby_xrealloc
                   ^
 nio4r_ext.c:15:22: note: in expansion of macro ‘xrealloc’
@@ -112,6 +112,6 @@ cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand�
 cc1: warning: unrecognized command line option ‘-Wno-cast-function-type’
 linking shared-object nio4r_ext.so
 
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/nio4r-2.3.1/ext/nio4r
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/nio4r-2.3.1/ext/nio4r
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20190222-1197-qhp7gu
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20190223-25218-1usaiz5

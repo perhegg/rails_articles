@@ -12,12 +12,12 @@ NULLCMD = :
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /snap/ruby/128/include/ruby-2.6.0
+topdir = /home/lemur/.rvm/rubies/ruby-2.6.0/include/ruby-2.6.0
 hdrdir = $(topdir)
-arch_hdrdir = /snap/ruby/128/include/ruby-2.6.0/x86_64-linux
+arch_hdrdir = /home/lemur/.rvm/rubies/ruby-2.6.0/include/ruby-2.6.0/x86_64-linux
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
-prefix = $(DESTDIR)/snap/ruby/128
+prefix = $(DESTDIR)/home/lemur/.rvm/rubies/ruby-2.6.0
 rubysitearchprefix = $(rubylibprefix)/$(sitearch)
 rubyarchprefix = $(rubylibprefix)/$(arch)
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)
@@ -31,8 +31,8 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20190222-1197-kbe685
-sitelibdir = $(DESTDIR)./.gem.20190222-1197-kbe685
+sitearchdir = $(DESTDIR)./.gem.20190223-25218-39q8ff
+sitelibdir = $(DESTDIR)./.gem.20190223-25218-39q8ff
 sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)

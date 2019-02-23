@@ -1,11 +1,11 @@
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.0/ext/bootsnap
-/home/lemur/.rvm/rubies/ruby-2.6.0/bin/ruby -I /home/lemur/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0 -r ./siteconf20190223-19970-37pznj.rb extconf.rb
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.0/ext/bootsnap
+/home/lemur/.rvm/rubies/ruby-2.6.0/bin/ruby -I /home/lemur/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0 -r ./siteconf20190223-25218-1ftuz3q.rb extconf.rb
 creating Makefile
 
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.0/ext/bootsnap
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.0/ext/bootsnap
 make "DESTDIR=" clean
 
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.0/ext/bootsnap
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.0/ext/bootsnap
 make "DESTDIR="
 compiling bootsnap.c
 bootsnap.c: In function ‘get_ruby_platform’:
@@ -34,8 +34,8 @@ cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand�
 cc1: warning: unrecognized command line option ‘-Wno-cast-function-type’
 linking shared-object bootsnap/bootsnap.so
 bootsnap.o: In function `atomic_write_cache_file':
-/home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.0/ext/bootsnap/bootsnap.c:479: warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+/home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.0/ext/bootsnap/bootsnap.c:479: warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
 
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.0/ext/bootsnap
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.0/ext/bootsnap
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20190223-19970-1vajwnv/bootsnap
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20190223-25218-2r6c7e/bootsnap

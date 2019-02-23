@@ -1,11 +1,11 @@
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.0/ext/byebug
-/snap/ruby/128/bin/ruby -I /snap/ruby/128/lib/ruby/2.6.0 -r ./siteconf20190222-1197-v60yjb.rb extconf.rb
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.0/ext/byebug
+/home/lemur/.rvm/rubies/ruby-2.6.0/bin/ruby -I /home/lemur/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0 -r ./siteconf20190223-25218-65k0r.rb extconf.rb
 creating Makefile
 
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.0/ext/byebug
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.0/ext/byebug
 make "DESTDIR=" clean
 
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.0/ext/byebug
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.0/ext/byebug
 make "DESTDIR="
 compiling breakpoint.c
 compiling byebug.c
@@ -14,6 +14,6 @@ compiling locker.c
 compiling threads.c
 linking shared-object byebug/byebug.so
 
-current directory: /home/lemur/per/rails/rails_demo/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.0/ext/byebug
+current directory: /home/lemur/per/rails/rails_bdd/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.0/ext/byebug
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 byebug.so ./.gem.20190222-1197-6d6acf/byebug
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20190223-25218-4ibz1z/byebug
